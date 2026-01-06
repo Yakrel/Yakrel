@@ -34,9 +34,6 @@ High-performance system utility developed in Rust for file system optimization.
 | **Automation** | Bash, PowerShell, Rust, Python |
 | **Observability** | Prometheus, Grafana, Loki |
 
-### 📊 GitHub Stats
-![Berkay's GitHub Stats](https://github-readme-streak-stats.herokuapp.com/?user=Yakrel&theme=tokyonight&hide_border=true)
-
 ---
 
 📫 **Connect with me:**
