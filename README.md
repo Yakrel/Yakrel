@@ -8,7 +8,8 @@ System Engineering expert transitioning into **DevOps**, focusing on Infrastruct
 
 #### 🏠 [Proxmox Homelab Automation](https://github.com/Yakrel/proxmox-homelab-automation)
 Managing a multi-node infrastructure as a Single Source of Truth using declarative YAML/Bash.
-![GitHub last commit](https://img.shields.io/github/last-commit/Yakrel/proxmox-homelab-automation?style=flat-square&color=blue)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/Yakrel/proxmox-homelab-automation?style=flat-square&color=blue&label=Last%20Update)
 
 #### 🐳 Docker Infrastructure & CI/CD
 Maintaining dedicated, automated CI/CD pipelines for custom-built Docker images.
@@ -34,8 +35,10 @@ High-performance system utility developed in Rust for file system optimization.
 | **Observability** | Prometheus, Grafana, Loki |
 
 ### 📊 GitHub Stats
-![Berkay's GitHub stats](https://github-readme-stats.vercel.app/api?username=Yakrel&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Yakrel&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117)
+<p align="left">
+<img src="https://github-readme-stats.vercel.app/api?username=Yakrel&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Berkay's GitHub stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yakrel&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Top Langs" />
+</p>
 
 ---
 
