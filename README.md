@@ -1,4 +1,5 @@
-# Hi, I'm Berkay 👋 | System Specialist & Automation Engineer
+# Hi, I'm Berkay 👋 | System Specialist
+### Microsoft & Linux Infrastructure | Automation
 
 System Engineering expert transitioning into **DevOps**, focusing on Infrastructure as Code (IaC), Zero Trust networking, and production-grade container orchestration.
 
