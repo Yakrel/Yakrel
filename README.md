@@ -35,10 +35,9 @@ High-performance system utility developed in Rust for file system optimization.
 | **Observability** | Prometheus, Grafana, Loki |
 
 ### 📊 GitHub Stats
-<p align="left">
-<img src="https://github-readme-stats.vercel.app/api?username=Yakrel&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Berkay's GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yakrel&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Top Langs" />
-</p>
+
+[![Berkay's GitHub stats](https://github-readme-stats.vercel.app/api?username=Yakrel&show_icons=true&theme=tokyonight&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Yakrel&layout=compact&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
 
 ---
 
