@@ -1,18 +1,43 @@
-# Hi, I'm Berkay 👋
+# Hi, I'm Berkay 👋 | System Specialist & Automation Engineer
 
-System Specialist experienced in Microsoft & Linux infrastructure management. Transforming traditional IT operations into modern, automated workflows using PowerShell, Bash, and DevOps practices.
+System Engineering expert transitioning into **DevOps**, focusing on Infrastructure as Code (IaC), Zero Trust networking, and production-grade container orchestration.
 
-Passionate about building production-grade homelab environments and solving complex problems with automation.
+---
 
-## 🛠️ Tech Stack
-- **Systems:** Windows Server, Active Directory, Proxmox VE, Linux (Debian/Ubuntu), AWS (EC2, S3)
-- **Automation & CI/CD:** PowerShell, Bash, GitHub Actions, Jenkins
-- **Containerization:** Docker, LXC, Kubernetes Concepts
-- **Networking:** Cloudflare Zero Trust, Nginx
+### 🚀 Featured Projects
 
-## 🔧 Featured Projects
-- [**Proxmox Homelab Automation**](https://github.com/Yakrel/proxmox-homelab-automation) - Declarative IaC, Zero Trust Architecture, and Disaster Recovery Ready Architecture for a production-grade homelab.
-- [**Wabbajack Library Cleaner**](https://github.com/Yakrel/wabbajack-library-cleaner) - Cross-platform Rust GUI tool for optimizing storage by reverse-engineering proprietary file formats.
-- [**Wabbajack Library Cleaner - Project Website**](https://github.com/Yakrel/wabbajack-library-cleaner-site) - High-performance product website and documentation portal built with Astro and Tailwind CSS v4.
+#### 🏠 [Proxmox Homelab Automation](https://github.com/Yakrel/proxmox-homelab-automation)
+Managing a multi-node infrastructure as a Single Source of Truth using declarative YAML/Bash.
+![GitHub last commit](https://img.shields.io/github/last-commit/Yakrel/proxmox-homelab-automation?style=flat-square&color=blue)
 
-📫 **Contact:** [LinkedIn](https://www.linkedin.com/in/berkayyetgin)
+#### 🐳 Docker Infrastructure & CI/CD
+Maintaining dedicated, automated CI/CD pipelines for custom-built Docker images.
+
+| Image | Description | Status |
+| :--- | :--- | :--- |
+| **[yakrel93/questarr](https://hub.docker.com/r/yakrel93/questarr)** | Automated build for Questarr game manager | ![Docker Pulls](https://img.shields.io/docker/pulls/yakrel93/questarr?style=flat-square&label=pulls) |
+| **[yakrel93/desktop-workspace](https://hub.docker.com/r/yakrel93/desktop-workspace)** | Web-based Linux Desktop (XFCE, Chrome) | ![Docker Pulls](https://img.shields.io/docker/pulls/yakrel93/desktop-workspace?style=flat-square&label=pulls) |
+| **[yakrel93/backrest-rclone](https://hub.docker.com/r/yakrel93/backrest-rclone)** | Backup utility with Rclone & Backrest | ![Docker Pulls](https://img.shields.io/docker/pulls/yakrel93/backrest-rclone?style=flat-square&label=pulls) |
+
+#### 🦀 [Wabbajack Library Cleaner](https://github.com/Yakrel/wabbajack-library-cleaner)
+High-performance system utility developed in Rust for file system optimization.
+
+---
+
+### 🛠️ Tech Stack
+| Domain | Technologies |
+| :--- | :--- |
+| **Infrastructure** | Proxmox VE, Windows Server (AD/GPO), Linux (Debian/Ubuntu), AWS |
+| **DevOps / CI-CD** | GitHub Actions, Docker, LXC, Jenkins, Ansible |
+| **Security** | Cloudflare Zero Trust, FortiGate, VPN/VLAN Segmentation |
+| **Automation** | Bash, PowerShell, Rust, Python |
+| **Observability** | Prometheus, Grafana, Loki |
+
+### 📊 GitHub Stats
+![Berkay's GitHub stats](https://github-readme-stats.vercel.app/api?username=Yakrel&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Yakrel&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117)
+
+---
+
+📫 **Connect with me:**
+[LinkedIn](https://www.linkedin.com/in/berkayyetgin) | [Website](https://cv.byetgin.com) | [Email](mailto:berkay.yetgin@outlook.com)
