@@ -15,11 +15,11 @@ Managing a multi-node infrastructure as a Single Source of Truth using declarati
 #### 🐳 Docker Infrastructure & CI/CD
 Maintaining dedicated, automated CI/CD pipelines for custom-built Docker images.
 
-| Image | Description | Status |
-| :--- | :--- | :--- |
-| **[yakrel93/questarr](https://hub.docker.com/r/yakrel93/questarr)** | Automated build for Questarr game manager | ![Docker Pulls](https://img.shields.io/docker/pulls/yakrel93/questarr?style=flat-square&label=pulls) |
-| **[yakrel93/desktop-workspace](https://hub.docker.com/r/yakrel93/desktop-workspace)** | Web-based Linux Desktop (XFCE, Chrome) | ![Docker Pulls](https://img.shields.io/docker/pulls/yakrel93/desktop-workspace?style=flat-square&label=pulls) |
-| **[yakrel93/backrest-rclone](https://hub.docker.com/r/yakrel93/backrest-rclone)** | Backup utility with Rclone & Backrest | ![Docker Pulls](https://img.shields.io/docker/pulls/yakrel93/backrest-rclone?style=flat-square&label=pulls) |
+| Image | Description |
+| :--- | :--- |
+| **[ghcr.io/yakrel/docker-questarr](https://github.com/Yakrel/docker-questarr/pkgs/container/docker-questarr)** | Automated build for Questarr game manager |
+| **[ghcr.io/yakrel/docker-desktop-workspace](https://github.com/Yakrel/docker-desktop-workspace/pkgs/container/docker-desktop-workspace)** | Web-based Linux Desktop (XFCE, Chrome) |
+| **[ghcr.io/yakrel/docker-backrest-rclone](https://github.com/Yakrel/docker-backrest-rclone/pkgs/container/docker-backrest-rclone)** | Backup utility with Rclone & Backrest |
 
 #### 🦀 [Wabbajack Library Cleaner](https://github.com/Yakrel/wabbajack-library-cleaner)
 High-performance system utility developed in Rust for file system optimization.
