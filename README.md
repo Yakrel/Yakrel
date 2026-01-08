@@ -17,7 +17,6 @@ Maintaining dedicated, automated CI/CD pipelines for custom-built Docker images.
 
 | Image | Description |
 | :--- | :--- |
-| **[ghcr.io/yakrel/docker-questarr](https://github.com/Yakrel/docker-questarr/pkgs/container/docker-questarr)** | Automated build for Questarr game manager |
 | **[ghcr.io/yakrel/docker-desktop-workspace](https://github.com/Yakrel/docker-desktop-workspace/pkgs/container/docker-desktop-workspace)** | Web-based Linux Desktop (XFCE, Chrome) |
 | **[ghcr.io/yakrel/docker-backrest-rclone](https://github.com/Yakrel/docker-backrest-rclone/pkgs/container/docker-backrest-rclone)** | Backup utility with Rclone & Backrest |
 
