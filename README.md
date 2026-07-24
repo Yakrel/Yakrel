@@ -1,47 +1,48 @@
 # Hi, I'm Berkay 👋 | System Specialist
 ### Microsoft & Linux Infrastructure | Automation & DevOps
 
-System Engineering expert transitioning into **DevOps**, focusing on Infrastructure as Code (IaC), Zero Trust networking, and production-grade container orchestration.
+I work on infrastructure automation, self-hosted services, container images, and small desktop/mobile tools. My main stack includes Proxmox VE, Linux, Docker, GitHub Actions, Bash, TypeScript, Rust, Go, and Kotlin.
 
 ---
 
-### 🚀 Featured Projects
+## Projects
 
-#### 🏠 [Proxmox Homelab Automation](https://github.com/Yakrel/proxmox-homelab-automation)
-Managing a multi-node infrastructure as a Single Source of Truth using declarative YAML/Bash.
+| Project | What it does | Main stack |
+| :--- | :--- | :--- |
+| [Proxmox Homelab Automation](https://github.com/Yakrel/proxmox-homelab-automation) | Declarative LXC and Docker Compose deployment for a multi-service Proxmox homelab. | Bash, Proxmox VE, Docker |
+| [Repackarr](https://github.com/Yakrel/repackarr) | Tracks game repack updates through Prowlarr and sends downloads to qBittorrent or Transmission. | TypeScript, SvelteKit |
+| [Wabbajack Library Cleaner](https://github.com/Yakrel/wabbajack-library-cleaner) | Removes duplicate, outdated, and orphaned files from Wabbajack download libraries. | Rust |
+| [Wabbajack Library Cleaner Site](https://github.com/Yakrel/wabbajack-library-cleaner-site) | Landing page and documentation for Wabbajack Library Cleaner at [cleaner.byetgin.com](https://cleaner.byetgin.com). | Astro, Tailwind CSS |
+| [Kur'an - Ayet Ezberle](https://github.com/Yakrel/kuran-ayet-ezberle) | Native Android ayah repetition trainer for Quran memorization. | Kotlin, Jetpack Compose |
+| [Desktop OTP Gate](https://github.com/Yakrel/desktop-otp-gate) | Lightweight TOTP authentication service for Nginx `auth_request`. | Go, Docker |
 
-![GitHub last commit](https://img.shields.io/github/last-commit/Yakrel/proxmox-homelab-automation?style=flat-square&color=blue&label=Last%20Update)
+## Container Images
 
-#### 🎮 [Repackarr](https://github.com/Yakrel/repackarr)
-Self-hosted automated manager for game repacks. Monitors your qBittorrent library, tracks updates via Prowlarr, and enables one-click upgrades — think Sonarr/Radarr for the repack community.
-
-![GitHub last commit](https://img.shields.io/github/last-commit/Yakrel/repackarr?style=flat-square&color=purple&label=Last%20Update)
-
-#### 🦀 [Wabbajack Library Cleaner](https://github.com/Yakrel/wabbajack-library-cleaner)
-High-performance cross-platform utility built in Rust for cleaning orphaned mods and old versions from Wabbajack download libraries. Available at [cleaner.byetgin.com](https://cleaner.byetgin.com).
-
-![GitHub last commit](https://img.shields.io/github/last-commit/Yakrel/wabbajack-library-cleaner?style=flat-square&color=orange&label=Last%20Update)
-
-#### 🐳 Docker Infrastructure & CI/CD
-Maintaining dedicated, automated CI/CD pipelines for custom-built Docker images.
-
-| Image | Description |
+| Repository / image | Purpose |
 | :--- | :--- |
-| **[ghcr.io/yakrel/docker-desktop-workspace](https://github.com/Yakrel/docker-desktop-workspace/pkgs/container/docker-desktop-workspace)** | Web-based Linux Desktop (XFCE, Chrome) |
-| **[ghcr.io/yakrel/docker-backrest-rclone](https://github.com/Yakrel/docker-backrest-rclone/pkgs/container/docker-backrest-rclone)** | Backup utility with Rclone & Backrest |
+| [docker-desktop-workspace](https://github.com/Yakrel/docker-desktop-workspace) | Browser-accessible Debian desktop with Brave, Obsidian, and Tasks.org. |
+| [docker-backrest-rclone](https://github.com/Yakrel/docker-backrest-rclone) | Backrest image with Rclone for encrypted backup replication. |
+| [docker-agentmemory](https://github.com/Yakrel/docker-agentmemory) | Maintained Agentmemory image used by the homelab AI stack. |
+
+Images are published under [`ghcr.io/yakrel`](https://github.com/Yakrel?tab=packages).
+
+## Public Forks
+
+- [satisfactory-server-docker](https://github.com/Yakrel/satisfactory-server-docker) — fork of the Dockerized Satisfactory dedicated server project.
 
 ---
 
-### 🛠️ Tech Stack
+## Tech Stack
+
 | Domain | Technologies |
 | :--- | :--- |
-| **Infrastructure** | Proxmox VE, Windows Server (AD/GPO), Linux (Debian/Ubuntu), AWS |
-| **DevOps / CI-CD** | GitHub Actions, Docker, LXC, Jenkins, Ansible |
-| **Security** | Cloudflare Zero Trust, FortiGate, VPN/VLAN Segmentation |
-| **Scripting & Tooling** | Bash, PowerShell, Python, Rust |
+| **Infrastructure** | Proxmox VE, Windows Server, Linux, Docker, LXC, ZFS |
+| **Automation / CI** | Bash, PowerShell, Python, GitHub Actions, Ansible, Jenkins |
+| **Application Development** | TypeScript, Rust, Go, Kotlin, SvelteKit, Astro, Jetpack Compose |
+| **Networking / Security** | Cloudflare Zero Trust, FortiGate, Tailscale, VPN and VLAN segmentation |
 | **Observability** | Prometheus, Grafana, Loki |
 
 ---
 
 📫 **Connect with me:**
-[LinkedIn](https://www.linkedin.com/in/berkayyetgin) | [Website](https://cv.byetgin.com) | [Email](mailto:berkay.yetgin@outlook.com)
+[LinkedIn](https://www.linkedin.com/in/berkayyetgin) · [Website](https://cv.byetgin.com) · [Email](mailto:berkay.yetgin@outlook.com)
