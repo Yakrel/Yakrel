@@ -1,48 +1,61 @@
-# Hi, I'm Berkay 👋 | System Specialist
-### Microsoft & Linux Infrastructure | Automation & DevOps
+# Hi, I'm Berkay 👋
 
-I work on infrastructure automation, self-hosted services, container images, and small desktop/mobile tools. My main stack includes Proxmox VE, Linux, Docker, GitHub Actions, Bash, TypeScript, Rust, Go, and Kotlin.
+**Systems & Infrastructure | Microsoft, Linux & Endpoint Automation**
 
----
+I work in enterprise IT with a focus on Microsoft identity, endpoint operations, software deployment, troubleshooting, and automation. Outside of work, I build and operate infrastructure projects around Proxmox VE, Linux, containers, networking, backup/recovery, and reproducible system configuration.
 
-## Projects
+My goal is simple: understand how a system behaves, make it repeatable, and remove unnecessary manual work.
 
-| Project | What it does | Main stack |
-| :--- | :--- | :--- |
-| [Proxmox Homelab Automation](https://github.com/Yakrel/proxmox-homelab-automation) | Declarative LXC and Docker Compose deployment for a multi-service Proxmox homelab. | Bash, Proxmox VE, Docker |
-| [Repackarr](https://github.com/Yakrel/repackarr) | Tracks game repack updates through Prowlarr and sends downloads to qBittorrent or Transmission. | TypeScript, SvelteKit |
-| [Wabbajack Library Cleaner](https://github.com/Yakrel/wabbajack-library-cleaner) | Removes duplicate, outdated, and orphaned files from Wabbajack download libraries. | Rust |
-| [Wabbajack Library Cleaner Site](https://github.com/Yakrel/wabbajack-library-cleaner-site) | Landing page and documentation for Wabbajack Library Cleaner at [cleaner.byetgin.com](https://cleaner.byetgin.com). | Astro, Tailwind CSS |
-| [Kur'an - Ayet Ezberle](https://github.com/Yakrel/kuran-ayet-ezberle) | Native Android ayah repetition trainer for Quran memorization. | Kotlin, Jetpack Compose |
-| [Desktop OTP Gate](https://github.com/Yakrel/desktop-otp-gate) | Lightweight TOTP authentication service for Nginx `auth_request`. | Go, Docker |
+## Featured Projects
 
-## Container Images
+### [Proxmox Homelab Automation](https://github.com/Yakrel/proxmox-homelab-automation)
+My main infrastructure project: a production-style Proxmox homelab running **40+ services across 7 LXC containers**.
 
-| Repository / image | Purpose |
-| :--- | :--- |
-| [docker-desktop-workspace](https://github.com/Yakrel/docker-desktop-workspace) | Browser-accessible Debian desktop with Brave, Obsidian, and Tasks.org. |
-| [docker-backrest-rclone](https://github.com/Yakrel/docker-backrest-rclone) | Backrest image with Rclone for encrypted backup replication. |
-| [docker-agentmemory](https://github.com/Yakrel/docker-agentmemory) | Maintained Agentmemory image used by the homelab AI stack. |
+It includes configuration-driven provisioning, Docker-in-LXC, unprivileged NVIDIA GPU passthrough, ZFS storage and snapshots, segmented firewall rules, monitoring, encrypted backup replication, Cloudflare/Tailscale access paths, and GitHub Actions-maintained container images.
+
+**Stack:** Proxmox VE · Linux · LXC · Docker Compose · ZFS · Bash · GitHub Actions · Cloudflare · Tailscale · Prometheus/Grafana
+
+### [NixOS Workstation Configuration](https://github.com/Yakrel/nixos-config)
+My personal workstation managed as a reproducible NixOS configuration instead of a manually maintained desktop.
+
+The repository covers declarative packages and services, flake-based dependency management, guarded fresh installation, rollback/change control, VPN services, browser tooling, and the workstation workflow I use day to day.
+
+**Stack:** NixOS · Nix Flakes · KDE Plasma · systemd · Git
+
+### [Desktop OTP Gate](https://github.com/Yakrel/desktop-otp-gate)
+A lightweight TOTP authentication layer for Nginx `auth_request`, adapted for my remote desktop and administrative services.
+
+It adds short-lived authenticated sessions, secure cookie defaults, rate limiting, and a simple browser login flow while keeping the reverse-auth service small and easy to deploy.
+
+**Stack:** Go · Nginx · TOTP · Docker
+
+## Other Public Projects
+
+- **[Gemini Dictation](https://github.com/Yakrel/ai-dikte)** — Minimal KDE Plasma Wayland voice dictation for CachyOS/Arch. Records with PipeWire, transcribes through Gemini, and types directly into the focused field without touching the clipboard.
+- **[JDownloader Download Interceptor](https://github.com/Yakrel/jdownloader-download-interceptor)** — Manifest V3 browser extension that intercepts Chromium downloads and lets the user send them to a trusted JDownloader instance or continue the original browser download.
+- **[Wabbajack Library Cleaner](https://github.com/Yakrel/wabbajack-library-cleaner)** — Cross-platform tool for safely finding orphaned and outdated files in Wabbajack download libraries, with preview and recoverable deletion.
+- **[Repackarr](https://github.com/Yakrel/repackarr)** — Self-hosted qBittorrent/Transmission + Prowlarr companion for monitoring and reviewing game-repack updates.
+- **[Kur'an - Ayet Ezberle](https://github.com/Yakrel/kuran-ayet-ezberle)** — Native Android ayah repetition trainer built around a focused Quran memorization workflow.
+
+## Maintained Container Images
+
+- **[docker-desktop-workspace](https://github.com/Yakrel/docker-desktop-workspace)** — Browser-accessible Debian desktop with Brave, Obsidian, and Tasks.org, built on Selkies/WebRTC.
+- **[docker-backrest-rclone](https://github.com/Yakrel/docker-backrest-rclone)** — Backrest image extended with Rclone for automated encrypted backup replication workflows.
 
 Images are published under [`ghcr.io/yakrel`](https://github.com/Yakrel?tab=packages).
 
-## Public Forks
+## Technical Focus
 
-- [satisfactory-server-docker](https://github.com/Yakrel/satisfactory-server-docker) — fork of the Dockerized Satisfactory dedicated server project.
-
----
-
-## Tech Stack
-
-| Domain | Technologies |
+| Area | Technologies / Practices |
 | :--- | :--- |
-| **Infrastructure** | Proxmox VE, Windows Server, Linux, Docker, LXC, ZFS |
-| **Automation / CI** | Bash, PowerShell, Python, GitHub Actions, Ansible, Jenkins |
-| **Application Development** | TypeScript, Rust, Go, Kotlin, SvelteKit, Astro, Jetpack Compose |
-| **Networking / Security** | Cloudflare Zero Trust, FortiGate, Tailscale, VPN and VLAN segmentation |
-| **Observability** | Prometheus, Grafana, Loki |
+| **Microsoft & Identity** | Active Directory, Entra ID, Group Policy, Windows Server, Microsoft 365 |
+| **Endpoint & Automation** | ManageEngine, SCCM, software deployment, PowerShell, CMD, troubleshooting and remediation |
+| **Virtualization & Containers** | Proxmox VE, VMware, Hyper-V, LXC, Docker, Docker Compose |
+| **Linux & Reproducibility** | NixOS, Debian, Alpine, Nix Flakes, systemd |
+| **Networking & Security** | FortiGate, Cisco, VLANs, VPN, Cloudflare Zero Trust, Tailscale, reverse proxies, firewall segmentation |
+| **Storage, Backup & Observability** | ZFS, Sanoid, Restic/Backrest, Rclone, Prometheus, Grafana |
+| **Automation & Delivery** | Bash, PowerShell, Git, GitHub Actions |
 
----
+## Links
 
-📫 **Connect with me:**
-[LinkedIn](https://www.linkedin.com/in/berkayyetgin) · [Website](https://cv.byetgin.com) · [Email](mailto:berkay.yetgin@outlook.com)
+[Portfolio / CV](https://cv.byetgin.com) · [LinkedIn](https://www.linkedin.com/in/berkayyetgin) · [Email](mailto:berkay.yetgin@outlook.com)
