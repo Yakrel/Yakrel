@@ -15,10 +15,10 @@ It includes configuration-driven provisioning, Docker-in-LXC, unprivileged NVIDI
 
 **Stack:** Proxmox VE · Linux · LXC · Docker Compose · ZFS · Bash · GitHub Actions · Cloudflare · Tailscale · Prometheus/Grafana
 
-### [NixOS Workstation Configuration](https://github.com/Yakrel/nixos-config)
-My personal workstation managed as a reproducible NixOS configuration instead of a manually maintained desktop.
+### [NixOS System-as-Code Configuration](https://github.com/Yakrel/nixos-config)
+A reproducible Linux configuration project built around the operating-system-as-code model rather than a manually maintained desktop.
 
-The repository covers declarative packages and services, flake-based dependency management, guarded fresh installation, rollback/change control, VPN services, browser tooling, and the workstation workflow I use day to day.
+The repository demonstrates declarative packages and services, flake-based dependency management, guarded fresh installation, rollback/change control, VPN services, browser tooling, and rebuilding a workstation from version-controlled configuration.
 
 **Stack:** NixOS · Nix Flakes · KDE Plasma · systemd · Git
 
