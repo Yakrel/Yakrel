@@ -31,13 +31,11 @@ The repository includes flake-based dependency management, a guarded fresh-insta
 
 ## Other Public Projects
 
-- **[Windows Postsetup Updater](https://github.com/Yakrel/windows-postsetup-updater)** — Zero-dependency Go utility that discovers and verifies upstream Windows installer updates, performs atomic downloads, preserves local license files, and publishes standalone Windows/Linux binaries through GitHub Actions.
 - **[Wabbajack Library Cleaner](https://github.com/Yakrel/wabbajack-library-cleaner)** — Cross-platform tool for finding orphaned and outdated Wabbajack downloads, with preview, recoverable deletion, native Windows/Linux binaries, and a public web frontend.
 - **[JDownloader Download Interceptor](https://github.com/Yakrel/jdownloader-download-interceptor)** — Manifest V3 Chromium extension that can route a download to a trusted JDownloader instance while preserving the browser's original download path when requested.
 - **[Repackarr](https://github.com/Yakrel/repackarr)** — Self-hosted qBittorrent/Transmission + Prowlarr companion for monitoring, reviewing, and optionally downloading newer game-repack releases.
 - **[Kur'an - Ayet Ezberle](https://github.com/Yakrel/kuran-ayet-ezberle)** — Native Android Quran memorization app built with Kotlin, Jetpack Compose, Media3, Room, Hilt, and background download/update workflows.
 - **[Desktop OTP Gate](https://github.com/Yakrel/desktop-otp-gate)** — A maintained adaptation of `simple-nginx-otp` for Nginx `auth_request`, with shorter session controls, stronger cookie defaults, rate limiting, and a custom login UI.
-- **[Omarchy ISO Build Fork](https://github.com/Yakrel/omarchy-iso)** — Personal fork used to pin custom ISO builds to selected upstream Omarchy revisions and automate build/release cleanup while staying synchronized with upstream development.
 
 ## Maintained Container Images
 
@@ -59,4 +57,4 @@ Images are published under [`ghcr.io/yakrel`](https://github.com/Yakrel?tab=pack
 
 ## Links
 
-[Portfolio / CV](https://cv.byetgin.com) · [LinkedIn](https://www.linkedin.com/in/berkayyetgin) · [Email](mailto:berkay.yetgin@outlook.com)
+[LinkedIn](https://www.linkedin.com/in/berkayyetgin) · [Email](mailto:berkay.yetgin@outlook.com)
